@@ -19,7 +19,7 @@ user_input = st.text_input("Describe a challenge you facing:")
 if user_input:
     st.success(f"💪you re facing:{user_input}.keep pushing forward towords your goal!🚀")
 else:
-st.warning("Tell us about your challenge to get started!")
+    st.warning("Tell us about your challenge to get started!")
 
 #reflexing
 st.header("Reflect on Your Learning")

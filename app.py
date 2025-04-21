@@ -9,7 +9,7 @@ st.write("The Growth Mindset Challenge is an interactive web application built w
 
 #quote section
 st.header("Today's Growth Mindset Quote")
- st.write(""Successnot is not final,failure is not fatal:it is the courage to continue that counts.")- Winston Churchill")
+st.write("Success is not final,failure is not fatal:it is the courage to continue that counts. - Winston Churchill")
  
 st.header("🔧What's your challenge Today?")
 user_input = st.text_input("Describe a challenge you facing:")
